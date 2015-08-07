@@ -9,7 +9,6 @@ export default class Header extends React.Component {
     range(init, length) {
         var arr = [];
         for (var i = init; i < +init + +length; i++) {
-            console.log(i);
             arr.push(i);
         }
         return arr;
