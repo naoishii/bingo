@@ -26,9 +26,11 @@ export default class Header extends React.Component {
 
     render() {
         var cells = this.getCells(this.props.start);
+
+        var className = ` pure-u-1-5 Line Line${this.props.name}`;
         return (
-            <div className="pure-u-1-5">
-                <div>
+            <div className={className}>
+                <div className="Label">
                     {this.props.name}
                 </div>
                 {cells}

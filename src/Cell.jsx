@@ -18,12 +18,11 @@ export default class Cell extends React.Component {
 
     render() {
 
-        var styles = {
-            color: this.state.open ? '#f00' : '#000'
-        };
+        var aita = this.state.open ? 'open' : 'close';
+        var className = `Cell ${aita}`;
 
         return (
-            <div onClick={this.handleClick.bind(this)} style={styles}>
+            <div onClick={this.handleClick.bind(this)} className={className}>
                 {this.props.number}
             </div>
         );

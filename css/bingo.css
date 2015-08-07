@@ -1,0 +1,96 @@
+@charset 'UTF-8';
+
+.Label {
+    text-align: center;
+    font-size: 50px; 
+}
+
+.Cell {
+    text-align: center;
+    font-size: 28px; 
+}
+
+/* Line B */
+.LineB { }
+
+.LineB .Label {
+    color: #fff;
+    background-color: #92785A;
+}
+.LineB .open {
+    color: #fff;
+    background-color: #92785A;
+}
+.LineB .close {
+    color: #92785A;
+    background-color: #fff;
+}
+
+
+/* Line I */
+.LineI { }
+
+.LineI .Label {
+    color: #fff;
+    background-color: #EF6797;
+}
+.LineI .open {
+    color: #fff;
+    background-color: #EF6797;
+}
+.LineI .close {
+    color: #EF6797;
+    background-color: #fff;
+}
+
+
+/* Line N */
+.LineN { }
+
+.LineN .Label {
+    color: #fff;
+    background-color: #F04D7B;
+}
+.LineN .open {
+    color: #fff;
+    background-color: #F04D7B;
+}
+.LineN .close {
+    color: #F04D7B;
+    background-color: #fff;
+}
+
+
+
+/* Line G */
+.LineG { }
+
+.LineG .Label {
+    color: #fff;
+    background-color: #EF9CAB;
+}
+.LineG .open {
+    color: #fff;
+    background-color: #EF9CAB;
+}
+.LineG .close {
+    color: #EF9CAB;
+    background-color: #fff;
+}
+
+
+/* Line O */
+.LineO { }
+
+.LineO .Label {
+    color: #fff;
+    background-color: #D56B8E;
+}
+.LineO .open {
+    color: #fff;
+    background-color: #D56B8E;
+}
+.LineO .close {
+    color: #D56B8E;
+    background-color: #fff;
+}
